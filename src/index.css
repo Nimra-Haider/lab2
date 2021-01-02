@@ -1,0 +1,69 @@
+.back
+{
+    background: black;
+    color: white;
+}
+.ruler
+{
+    border-bottom: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+}
+#about-sec
+{
+    margin-top: 25px;
+}
+.text-color
+{
+    color: black;
+}
+.sale-img
+{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+.sale-img{
+   animation-name: imgLeft;
+   animation-duration: 5s;
+}
+.about-text{
+    animation-name: textRight;
+    animation-duration: 5s;
+}
+
+@keyframes imgLeft
+{
+    0%{
+        transform: transalteX(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: transalteX(0);
+        opacity: 1;
+    }
+}
+@keyframes textRight
+{
+    0%{
+        transform: transalteX(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: transalteX(0);
+        opacity: 1;
+    }
+}
+
+.services
+{
+    border-bottom: black inset;
+}
+.service-icon
+{
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: black;
+    padding: 8px 16px;
+}
